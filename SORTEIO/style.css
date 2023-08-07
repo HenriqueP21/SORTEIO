@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins Bold';
+}
+
+body {
+    background: rgb(40, 40, 40);
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+
+main.container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 24px;
+    flex-wrap: wrap-reverse;
+}
+
+main.container div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #202020;
+    padding: 5rem 5rem;
+    border-radius: 8px;
+}
+
+
+button {
+    margin-top: 50px;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: rgb(38, 29, 204);
+    color: #fff;
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: rgb(38, 29, 204);
+    color: #fff;
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.entradas .entrada input {
+    padding: 0.75rem;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.entradas .entrada input {
+    padding: 0.75rem;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.entradas .entrada label {
+    text-decoration: solid;
+    text-align: justify;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+#resultado {
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(38, 29, 204);
+    text-shadow: 0 0 12px;
+}
